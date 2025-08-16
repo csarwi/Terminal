@@ -32,11 +32,18 @@
     ],
     "profiles": 
     {
-        "defaults": {
-            "font": {
+        "defaults": 
+        {
+            "colorScheme": "Solarized Dark",
+            "cursorShape": "bar",
+            "font": 
+            {
                 "face": "FiraCode Nerd Font",
                 "size": 13
-            }
+            },
+            "opacity": 20,
+            "scrollbarState": "hidden",
+            "useAcrylic": true
         },
         "list": 
         [
@@ -73,5 +80,7 @@
         ]
     },
     "schemes": [],
-    "themes": []
+    "showTabsInTitlebar": false,
+    "themes": [],
+    "useAcrylicInTabRow": true
 }
